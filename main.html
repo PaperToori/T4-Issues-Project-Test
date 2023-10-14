@@ -6,52 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snas undertale!?!?</title>
     <link rel="stylesheet" href="css.css">
+    <script defer src="js.js"></script>
 </head>
 
 <body>
     <header>
-        <h3>Welcome to the Underground</h3>
+        <h1>John Carmack, and the history of 3D engines</h1>
     </header>
     <div class="main-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ex,
-            nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
-            Vel fuga magnam nemo iusto voluptas ratione quidem.</p>
+        <div class="piece" onclick="ToggleHideIntro()">
+            <p class="subtitle">Introduction</p>
+            <div id="introduction">
+                <p>Yeah</p>
+            </div>
+        </div>
+        <div class="piece" onclick="ToggleHideVoxpix()">
+            <p class="subtitle">Voxels vs Pixels</p>
+            <div id="voxpix">
+                <p>Pretty cool stuff</p>
+            </div>
+        </div>
+        <div class="piece" onclick="ToggleHidePretending()">
+            <p class="subtitle">The limits of pretending</p>
+            <div id="pretending">
+                <img src="John Carmack.jpg" alt="Portrait shot of John Carmack">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium ex,
+                    nostrum deleniti mollitia ea error ratione temporibus nihil fugiat quia hic nemo?
+                    Vel fuga magnam nemo iusto voluptas ratione quidem.</p>
+            </div>
+        </div>
+        <div class="piece" onclick="ToggleHide3D()">
+            <p class="subtitle">True 3D</p>
+            <div id="threeD">
+                <p>Quake was pretty cool</p>
+            </div>
+        </div>
+        <div class="piece" onclick="ToggleHideAftermath()">
+            <p class="subtitle">Other's find that you can make shooty-shooty games too!</p>
+            <div id="aftermath">
+                <p>From Call of Duty to Slime Rancher, idk, basically all shooters copy their style and formula.</p>
+            </div>
+        </div>
+        <div class="piece" onclick="ToggleHideEthics()">
+            <p class="subtitle">But shooty-shooty games are bad</p>
+            <div id="ethics">
+                <p>
+                    How do I get my husband to stop going ‘Goblin Mode’ during sex?
+                </p>
+                <p>
+                    TLDR; My husband says ‘Goblin Mode activated’ when we start to have sex, growls and acts like a
+                    caveman, and then says ‘Goblin Mode off’ when we stop, and then pretends not to remember afterward.
+                </p>
+                <p>
+                    I really love my husband and he’s always been great in bed. But recently he’s been acting really
+                    weird.
+                    So, a couple of days ago, my son went on a rampage through our house and said he was in ‘Goblin
+                    Mode’.
+                    We didn’t really know what to do with him, so we sent him to live with my parents so he can go to a
+                    special needs school. My husband a really great relationship with our son and loved him more than
+                    anything. Naturally, he was upset when he had to leave. He’s an incredibly tough man, but this was
+                    the
+                    first time I’ve ever seen him cry. I think since then, he’s been a little emotionally unwell. I’ve
+                    heard
+                    him muttering, ‘Goblin’ repeatedly when he didn’t notice me, staring blankly into his food, and just
+                    going alone by himself to do who knows what. I feel awful for him, but we both agreed that this was
+                    for
+                    the best. Last night, the day after our son went away, we decided to have sex to relieve our stress.
+                    However, my husband said ‘Goblin Mode activated’, starting growling, and went wild having sex with
+                    me.
+                    Admittedly, it was some of the best and most experimental sex I’ve ever had, but I’m worried that
+                    something might be going on with my husband. Any advice?
+                </p>
+                <p>
+                    Edit: The problem isn’t the ‘Goblin Mode’, it’s that he could be ill
+                </p>
+            </div>
+        </div>
 
     </div>
     <footer>
-        <p>How was the fall?</p>
+        <p>Source; trust me bro</p>
     </footer>
 </body>
 
